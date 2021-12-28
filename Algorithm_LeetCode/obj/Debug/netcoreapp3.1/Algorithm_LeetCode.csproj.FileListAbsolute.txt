@@ -1,0 +1,13 @@
+C:\Users\KIM\Desktop\Algorithm_LeetCode\Algorithm_LeetCode\bin\Debug\netcoreapp3.1\Algorithm_LeetCode.exe
+C:\Users\KIM\Desktop\Algorithm_LeetCode\Algorithm_LeetCode\bin\Debug\netcoreapp3.1\Algorithm_LeetCode.deps.json
+C:\Users\KIM\Desktop\Algorithm_LeetCode\Algorithm_LeetCode\bin\Debug\netcoreapp3.1\Algorithm_LeetCode.runtimeconfig.json
+C:\Users\KIM\Desktop\Algorithm_LeetCode\Algorithm_LeetCode\bin\Debug\netcoreapp3.1\Algorithm_LeetCode.runtimeconfig.dev.json
+C:\Users\KIM\Desktop\Algorithm_LeetCode\Algorithm_LeetCode\bin\Debug\netcoreapp3.1\Algorithm_LeetCode.dll
+C:\Users\KIM\Desktop\Algorithm_LeetCode\Algorithm_LeetCode\bin\Debug\netcoreapp3.1\Algorithm_LeetCode.pdb
+C:\Users\KIM\Desktop\Algorithm_LeetCode\Algorithm_LeetCode\obj\Debug\netcoreapp3.1\Algorithm_LeetCode.AssemblyInfoInputs.cache
+C:\Users\KIM\Desktop\Algorithm_LeetCode\Algorithm_LeetCode\obj\Debug\netcoreapp3.1\Algorithm_LeetCode.AssemblyInfo.cs
+C:\Users\KIM\Desktop\Algorithm_LeetCode\Algorithm_LeetCode\obj\Debug\netcoreapp3.1\Algorithm_LeetCode.csproj.CoreCompileInputs.cache
+C:\Users\KIM\Desktop\Algorithm_LeetCode\Algorithm_LeetCode\obj\Debug\netcoreapp3.1\Algorithm_LeetCode.dll
+C:\Users\KIM\Desktop\Algorithm_LeetCode\Algorithm_LeetCode\obj\Debug\netcoreapp3.1\Algorithm_LeetCode.pdb
+C:\Users\KIM\Desktop\Algorithm_LeetCode\Algorithm_LeetCode\obj\Debug\netcoreapp3.1\Algorithm_LeetCode.genruntimeconfig.cache
+C:\Users\KIM\Desktop\Algorithm_LeetCode\Algorithm_LeetCode\obj\Debug\netcoreapp3.1\Algorithm_LeetCode.csprojAssemblyReference.cache
