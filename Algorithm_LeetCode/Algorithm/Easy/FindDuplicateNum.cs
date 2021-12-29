@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Algorithm_LeetCode.BaseAdmin;
 
 namespace Algorithm_LeetCode.Algorithm.Easy
 {
@@ -11,13 +12,14 @@ namespace Algorithm_LeetCode.Algorithm.Easy
             try
             {   //Argument variable
                 int[] arr = { 1, 2, 4, 12, 5, 6, 2, 7, 12 };
-
+                
                 //Implement Algorithm
                 RunAlgorithm(arr);
             }
-            catch (ArgumentException e)
+            catch (ArgumentException ex)
             {
-                throw e;
+                ExceptionManager.LogErr(DateTime.Now, this.GetType().Name.ToString(), ex.ToString());
+                throw ex;
             }
         }
         private int RunAlgorithm(int[] numRay)
@@ -41,13 +43,12 @@ namespace Algorithm_LeetCode.Algorithm.Easy
                 }
                 return 0;
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                throw e;
+                ExceptionManager.LogErr(DateTime.Now, this.GetType().Name.ToString(), ex.ToString());
+                throw ex;
             }
         }
-
-
 
     }
 }

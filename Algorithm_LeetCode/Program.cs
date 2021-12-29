@@ -12,6 +12,8 @@ namespace Algorithm_LeetCode
             //firstBadVersion.FindFirstBadVersion();
             //MoveZeroes moveZeroes = new MoveZeroes();
             //moveZeroes.MoveZeroToEnd();
+            TowSum towSum = new TowSum();
+            towSum.FindTowsum();
         }
 
     }

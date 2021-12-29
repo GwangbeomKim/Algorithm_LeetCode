@@ -1,11 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Algorithm_LeetCode.BaseAdmin;
 
 namespace Algorithm_LeetCode.Algorithm.Easy
 {
     class FirstBadVersion
     {
+        /// <summary>
+        /*You are a product manager and currently leading a team to develop a new product. Unfortunately, the latest version of your product fails the quality check. Since each version is developed based on the previous version, all the versions after a bad version are also bad.
+          Suppose you have n versions[1, 2, ..., n] and you want to find out the first bad one, which causes all the following ones to be bad. */
+        /// </summary>
         public void FindFirstBadVersion()
         {
             try
@@ -16,9 +21,10 @@ namespace Algorithm_LeetCode.Algorithm.Easy
                 int Badversion = RunFirstBadVersion(startNum);
                 Console.WriteLine(Badversion);
             }
-            catch (ArgumentException e)
+            catch (ArgumentException ex)
             {
-                throw e;
+                ExceptionManager.LogErr(DateTime.Now, this.GetType().Name.ToString(), ex.ToString());
+                throw ex;
             }
         }
 
@@ -43,9 +49,10 @@ namespace Algorithm_LeetCode.Algorithm.Easy
                 }
                 return low;
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                throw e;
+                ExceptionManager.LogErr(DateTime.Now, this.GetType().Name.ToString(), ex.ToString());
+                throw ex;
             }
         }
         private bool isBadNumCheck(int num)
@@ -60,9 +67,10 @@ namespace Algorithm_LeetCode.Algorithm.Easy
                 else
                     return true;
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                throw e;
+                ExceptionManager.LogErr(DateTime.Now, this.GetType().Name.ToString(), ex.ToString());
+                throw ex;
             }
         }
     }
