@@ -12,7 +12,7 @@ namespace Algorithm_LeetCode.Algorithm.Easy
     /// </summary>
     class TowSum
     {
-        public void FindTowsum()
+        public void A_TowSum()
         {
             try
             {   //Argument variable

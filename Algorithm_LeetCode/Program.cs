@@ -7,13 +7,17 @@ namespace Algorithm_LeetCode
         static void Main(string[] args)
         {
             //FindDuplicateNum findDuplicateNum = new FindDuplicateNum();
-            //findDuplicateNum.FindDuplicate();
+            //findDuplicateNum.A_FindDuplicateNum();
             //FirstBadVersion firstBadVersion = new FirstBadVersion();
-            //firstBadVersion.FindFirstBadVersion();
+            //firstBadVersion.A_FirstBadVersion();
             //MoveZeroes moveZeroes = new MoveZeroes();
-            //moveZeroes.MoveZeroToEnd();
-            TowSum towSum = new TowSum();
-            towSum.FindTowsum();
+            //moveZeroes.A_MoveZeroToEnd();
+            //TowSum towSum = new TowSum();
+            //towSum.A_TowSum();
+            //LengthOfLastWord lengthOfLastWord = new LengthOfLastWord();
+            //lengthOfLastWord.A_LengthOfLastWord();
+            
+
         }
 
     }

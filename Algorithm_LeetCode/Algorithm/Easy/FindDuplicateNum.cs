@@ -7,7 +7,7 @@ namespace Algorithm_LeetCode.Algorithm.Easy
 {
     class FindDuplicateNum
     {
-        public void FindDuplicate()
+        public void A_FindDuplicateNum()
         {
             try
             {   //Argument variable
