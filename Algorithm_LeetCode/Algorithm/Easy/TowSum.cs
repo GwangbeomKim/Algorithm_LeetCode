@@ -20,7 +20,7 @@ namespace Algorithm_LeetCode.Algorithm.Easy
                 int target = 18;
 
                 //Implement Algorithm
-                int[] result = RunTwoSum(arr, target);
+                int[] result = RunAlgorithm(arr, target);
 
                 //Print int array
                 foreach (var item in result)
@@ -35,7 +35,7 @@ namespace Algorithm_LeetCode.Algorithm.Easy
             }
         }
 
-        public int[] RunTwoSum(int[] numbers, int target)
+        private int[] RunAlgorithm(int[] numbers, int target)
         {
             try
             {

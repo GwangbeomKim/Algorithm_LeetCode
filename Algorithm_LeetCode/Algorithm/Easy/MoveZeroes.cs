@@ -17,7 +17,7 @@ namespace Algorithm_LeetCode.Algorithm.Easy
                 int[] arr = { 6, 0, 4, 8, 5, 0, 3, 7, 12 };
 
                 //Implement Algorithm
-                RunMoveZeroes(arr);
+                RunAlgorithm(arr);
 
                 //Print int array
                 foreach(var item in arr)
@@ -32,7 +32,7 @@ namespace Algorithm_LeetCode.Algorithm.Easy
             }
         }
 
-        public int[] RunMoveZeroes(int[] nums)
+        private int[] RunAlgorithm(int[] nums)
         {
             try
             {

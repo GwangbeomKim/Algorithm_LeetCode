@@ -1,5 +1,6 @@
 ﻿using System;
 using Algorithm_LeetCode.Algorithm.Easy;
+using Algorithm_LeetCode.Algorithm.Medium;
 namespace Algorithm_LeetCode
 {
     class Program
@@ -16,8 +17,8 @@ namespace Algorithm_LeetCode
             //towSum.A_TowSum();
             //LengthOfLastWord lengthOfLastWord = new LengthOfLastWord();
             //lengthOfLastWord.A_LengthOfLastWord();
-            
-
+            ReverseInteger reverseInteger = new ReverseInteger();
+            reverseInteger.A_ReverseInteger();
         }
 
     }

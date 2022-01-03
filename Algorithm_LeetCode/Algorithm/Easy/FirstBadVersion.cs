@@ -18,7 +18,7 @@ namespace Algorithm_LeetCode.Algorithm.Easy
                 int startNum = 10;
 
                 //Implement Algorithm
-                int Badversion = RunFirstBadVersion(startNum);
+                int Badversion = RunAlgorithm(startNum);
                 Console.WriteLine(Badversion);
             }
             catch (ArgumentException ex)
@@ -28,7 +28,7 @@ namespace Algorithm_LeetCode.Algorithm.Easy
             }
         }
 
-        private int RunFirstBadVersion(int n)
+        private int RunAlgorithm(int n)
         {
             try
             {
